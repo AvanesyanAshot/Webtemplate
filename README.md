@@ -41,3 +41,7 @@ npm install html-webpack-plugin --save-dev
 ```
 npm i vue --save npm i vue-loader vue-style-loader vue-template-compiler --save-dev
 ```
+Установка `Vuex`:
+```
+npm i vuex --save 
+```

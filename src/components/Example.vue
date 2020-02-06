@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper">
-        <h1>Hi {{ name }}</h1>
+        <h1>Hi {{ message }}</h1>
     </div>
 </template>
 
@@ -9,8 +9,11 @@
         name: "Example",
         data () {
             return {
-                name : "Albert"
+                message: "Albert"
             }
+        },
+        created() {
+            this.name = this.$store.getters.getMessage
         }
     }
 </script>
