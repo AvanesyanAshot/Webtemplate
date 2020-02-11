@@ -13,7 +13,7 @@
             }
         },
         created() {
-            this.name = this.$store.getters.getMessage
+            this.message = this.$store.getters.getMessage
         }
     }
 </script>
